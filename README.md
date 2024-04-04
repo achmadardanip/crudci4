@@ -1,5 +1,5 @@
 # Lokatani Assignment Web Application
-
+Lokatani offers application-based hydroponic garden management technology and IoT to support healthy and high-quality vegetable production through technology.
 ## Overview
 
 This repository contains the codebase for a web application developed as part of the Lokatani Assignment for the Web Development Internship. The application is built using CodeIgniter 4 framework, a powerful PHP framework known for its simplicity, performance, and flexibility.
@@ -12,9 +12,9 @@ To install the application, ensure you have **PHP version 7.3 or higher** and **
 
 **1. Install XAMPP:** Download and install XAMPP from the following links based on your operating system:
 
-- [Windows](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.29/)
-- [Llinux](https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.4.29/)
-- [Mac OS](https://sourceforge.net/projects/xampp/files/XAMPP%20Mac%20OS%20X/7.4.29/)
+- [Windows](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/)
+- [Llinux](https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.12/)
+- [Mac OS](https://sourceforge.net/projects/xampp/files/XAMPP%20Mac%20OS%20X/8.2.4/)
 
 **2. Clone Repository:** Once XAMPP is installed, navigate to the installation folder and locate the `htdocs` directory. Open a command prompt in the `htdocs` folder and clone this repository using the following command:
 ```
@@ -71,24 +71,18 @@ Once the installation and setup are complete, you can start using the web applic
 
 Here are some screenshots of the web application:
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+![image](https://github.com/achmadardanip/crudci4/assets/52017148/a23aa08b-df0e-45e9-b075-31a64f584575)
+![image](https://github.com/achmadardanip/crudci4/assets/52017148/3b4cecd8-f610-48f7-8cf8-377964a48623)
+![image](https://github.com/achmadardanip/crudci4/assets/52017148/5f01f0b4-ab24-4ba4-af07-0631d37e50aa)
+![image](https://github.com/achmadardanip/crudci4/assets/52017148/354c2560-272e-45cb-a036-1c79b97fe224)
+![image](https://github.com/achmadardanip/crudci4/assets/52017148/beaa68bd-682b-41fa-8bcb-683b9d37bd1f)
+![image](https://github.com/achmadardanip/crudci4/assets/52017148/a2e20965-de5c-424d-9e6d-0a99f2a86392)
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+## Contact
+Feel free to contact me if you encounter any issues or have questions regarding the application:
 
-## Server Requirements
-
-Here are some screenshots of the web application:
+WhatsApp: 083877502520
 
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 
-Additionally, make sure that the following extensions are enabled in your PHP:
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
