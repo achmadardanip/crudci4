@@ -32,7 +32,7 @@ Follow these steps to set up the database and configure the application:
 - Create a new database named `crudci4`.
 Inside the `crudci4` database, select the `Import menu` and import the SQL file found at `app/sql/user.sql`.
 
-**2. Configuration:**
+**2. Environment Configuration:**
 Navigate to the root folder of the source code. Locate the file named `env`, copy `env` to `.env`. Inside `.env` file Customize the following configurations:
 ```
 CI_ENVIRONMENT = development
@@ -42,6 +42,23 @@ database.default.database = 'crudci4'
 database.default.username = 'your_username'
 database.default.password = 'your_password'
 ```
+
+**3. PHP Configuration**
+- Navigate to the directory where XAMPP is installed on your system. Typically, this is `C:\xampp` on Windows or `/opt/lampp` on Linux.
+- Within the XAMPP installation directory, locate the `php` folder and open it.
+- Inside the `php` folder, you'll find a file named `php.ini`. Open this file in a text editor of your choice.
+- Search for the following line in the `php.ini` file:
+```
+intl.default_locale="en-US"
+```
+Ensure that the value is set to `en-US`. This setting specifies the default locale for internationalization functions.
+- Search for the following line:
+```
+;extension=php_intl.dll
+```
+Remove the `semicolon ;` at the beginning of the line to enable the PHP intl extension. Enabling this extension is necessary for internationalization support.
+- After making the necessary modifications, save the `php.ini` file.
+- To apply the changes, you need to restart the Apache and MySQL modules in XAMPP. You can do this through the XAMPP control panel. Restart both the Apache and MySQL modules.
 
 ## Usage
 Once the installation and setup are complete, you can start using the web application:
