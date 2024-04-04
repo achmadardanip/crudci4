@@ -35,6 +35,7 @@ Inside the `crudci4` database, select the `Import menu` and import the SQL file 
 **2. Configuration:**
 Navigate to the root folder of the source code. Locate the file named `env`, copy `env` to `.env`. Inside `.env` file Customize the following configurations:
 ```
+CI_ENVIRONMENT = development
 app.baseURL = 'http://localhost/crudci4/public'
 database.default.hostname = 'localhost'
 database.default.database = 'crudci4'
